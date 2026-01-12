@@ -6,7 +6,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       window.location.reload();
-    }, 3600000); 
+    }, 1800000); // 30 phút
     return () => clearInterval(interval);
   }, []);
 
