@@ -1,0 +1,159 @@
+{
+  "zapply": "Zapply",
+  "sign-up": "Registrieren",
+  "description": "Personalisierte Lebensläufe und Anschreiben, die mit KI an Ihren Ton, Ihre Persönlichkeit und die Stellenanzeige angepasst werden.",
+  "tailored-cvs-and-cover-letters": "Maßgeschneiderte Lebensläufe und Anschreiben. Für jede Stelle. Jedes Mal. Lassen Sie KI Ihren Lebenslauf und Ihr Anschreiben sofort an Ihren Ton, Ihre Persönlichkeit und jede Stelle anpassen – keine Vorlagen, kein Rätselraten. Erhalten Sie vollständig personalisierte, professionelle Dokumente, die Sie bei jeder Bewerbung hervorheben.",
+  "why-this-matters": {
+    "title": "Warum das wichtig ist",
+    "description": "Müde von generischen Bewerbungen, die ignoriert werden? Schwierigkeiten, Ihren Ton an jede Stellenanzeige anzupassen?",
+    "generic-isnt-getting-you-interviews": {
+      "title": "Generisch bringt keine Vorstellungsgespräche",
+      "description": "Seien wir ehrlich – Personalverantwortliche erkennen einen Standardlebenslauf aus einem Kilometer Entfernung. Wenn Ihre Bewerbung nicht direkt auf die Stelle eingeht, wird sie wahrscheinlich nicht beachtet."
+    },
+    "your-voice-lost-in-translation": {
+      "title": "Ihre Stimme geht verloren",
+      "description": "Sie sind professionell, motiviert, vielleicht ein wenig ausgefallen – aber zeigt Ihre Bewerbung das? Wenn Ihr Ton nicht zur Stelle passt oder Ihre einzigartige Persönlichkeit nicht widerspiegelt, verpassen Sie echte Chancen."
+    },
+    "we-fix-that-automatically": {
+      "title": "Wir beheben das – automatisch",
+      "description": "Unsere KI verwandelt Ihren Basislebenslauf und Ihr Anschreiben in erfolgreiche Bewerbungen, die auf jede Stellenanzeige zugeschnitten sind. Sie passt Ihre Stimme an – ob professionell, selbstbewusst, bescheiden oder kreativ – und stimmt sie perfekt auf die Anforderungen der Stelle und des Unternehmens ab. Keine Vorlagen. Kein Rätselraten. Nur wirkungsvolle Bewerbungen, die wirklich nach Ihnen klingen und Ergebnisse liefern."
+    },
+    "ready-to-stand-out": "Bereit, sich abzuheben? Lassen Sie jede Bewerbung zählen.",
+    "generateLinkText": "Meine individuelle Bewerbung erstellen"
+  },
+  "how-it-works": {
+    "title": "Wie es funktioniert",
+    "description": "Erhalten Sie einen maßgeschneiderten Lebenslauf und ein Anschreiben in drei einfachen Schritten.",
+    "step-1": {
+      "title": "Fügen Sie Ihren Lebenslauf und die Stellenanzeige ein",
+      "description": "Fügen Sie Ihren Lebenslauf in beliebiger Sprache ein – wir passen ihn basierend auf der Stellenbeschreibung an die Zielsprache und Position an."
+    },
+    "step-2": {
+      "title": "Wählen Sie Ihre Persönlichkeit und Ihren Ton",
+      "description": "Definieren Sie Ihre berufliche Persona (z. B. Empathischer Designer, Datengetriebener Entwickler) und den gewünschten Ton (z. B. Selbstbewusst, Formal, Witzig), um Ihre Bewerbung zu personalisieren."
+    },
+    "step-3": {
+      "title": "Erhalten Sie sofort einen individuellen Lebenslauf und ein Anschreiben",
+      "description": "Jede Bewerbung wird individuell erstellt – sie spiegelt Ihre persönliche Stimme wider und ist exakt auf die angestrebte Position zugeschnitten."
+    },
+    "callToAction": "Jetzt anpassen beginnen"
+  },
+  "what-makes-us-different": {
+    "title": "Was uns auszeichnet",
+    "description": "Unsere KI erstellt Bewerbungen, die auffallen und bemerkt werden.",
+    "no-templates": {
+      "title": "Keine Vorlagen",
+      "description": "Echte Anpassung für einzigartige Bewerbungen."
+    },
+    "tailored-for-each-job-ad": {
+      "title": "Auf jede Stellenanzeige zugeschnitten",
+      "description": "Personalisierung basierend auf der Stellenbeschreibung."
+    },
+    "choose-tone-and-persona": {
+      "title": "Ton und Persönlichkeit wählen",
+      "description": "Anpassung, um einzigartig wie Sie zu klingen."
+    },
+    "ats-optimized": {
+      "title": "ATS-optimiert",
+      "description": "Für Menschen lesbar und ATS-freundlich."
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Beta-Tester sagen",
+    "description": "Echtes Feedback von Jobsuchenden, die unsere Plattform nutzen.",
+    "testimonial-1": {
+      "title": "Meinen Traumjob ergattert",
+      "quote": "Ich hatte innerhalb einer Woche nach Nutzung dieses Tools ein Vorstellungsgespräch. Mein Lebenslauf stach endlich heraus!",
+      "author": "Alex",
+      "role": "Softwareingenieur",
+      "altText": "Alex, Softwareingenieur"
+    },
+    "testimonial-2": {
+      "title": "Spart so viel Zeit",
+      "quote": "Das Anpassen meines Lebenslaufs für jede Stelle hat früher Stunden gedauert. Jetzt ist es in Minuten erledigt.",
+      "author": "Sarah",
+      "role": "Produktdesignerin",
+      "altText": "Sarah, Produktdesignerin"
+    },
+    "testimonial-3": {
+      "title": "Perfekt für Jobsuchende",
+      "quote": "Die Optionen für Ton und Persönlichkeit machten meine Bewerbung so authentisch.",
+      "author": "Mike",
+      "role": "Projektmanager",
+      "altText": "Mike, Projektmanager"
+    }
+  },
+  "call-to-action": {
+    "title": "Bereit, bei jeder Bewerbung herauszustechen?",
+    "description": "Schließen Sie sich Hunderten an, die mit KI-gestützten Bewerbungen Vorstellungsgespräche ergattern.",
+    "buttonText": "An der Beta teilnehmen",
+    "no-spam": "Ihre Daten sind bei uns sicher. Kein Spam, niemals.",
+    "errorInvalidEmail": "Please enter a valid email address."
+  },
+  "faq": {
+    "title": "FAQ",
+    "description": "Haben Sie Fragen? Wir haben Antworten.",
+    "is-it-free": "Ist es kostenlos?",
+    "is-it-free-asw": "Ja – frühe Beta-Nutzer erhalten kostenlosen Zugang.",
+    "do-i-need-an-account": "Brauche ich ein Konto?",
+    "do-i-need-an-account-asw": "Noch nicht. Einfach einfügen und losgehen.",
+    "is-my-data-safe": "Sind meine Daten sicher?",
+    "is-my-data-safe-asw": "100%. Wir speichern nichts.",
+    "how-does-the-ai-customize-my-cv": "Wie passt die KI meinen Lebenslauf an?",
+    "how-does-the-ai-customize-my-cv-asw": "Unsere KI analysiert Ihren Lebenslauf, die Stellenbeschreibung und Ihren gewählten Ton und Ihre Persönlichkeit, um Ihre Bewerbung so umzuschreiben, dass sie zur Stelle passt.",
+    "contact-text": "Noch Fragen? Kontaktieren Sie uns"
+  },
+  "footer": {
+    "product": {
+      "title": "Produkt",
+      "links": {
+        "product": "Produkt",
+        "about": "Über uns",
+        "github": "GitHub"
+      }
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "links": {
+        "privacy-policy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen"
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "huenguyenhoang1105@gmail.com"
+    },
+    "tagline": "Built by Hue Nguyen Hoang",
+    "copyright": "© 2025 . All Rights Reserved."
+  },
+  "hero": {
+    "title": "Maßgeschneiderte Lebensläufe und Anschreiben.<br />Für jede Stelle. Jedes Mal.",
+    "description": "Lassen Sie KI Ihren Lebenslauf und Ihr Anschreiben sofort an Ihren Ton, Ihre Persönlichkeit und jede Stelle anpassen – keine Vorlagen, kein Rätselraten. Erhalten Sie vollständig personalisierte, professionelle Dokumente, die Sie bei jeder Bewerbung hervorheben.",
+    "generateButton": "→ Meine Bewerbung erstellen",
+    "noSignupLink": "Keine Anmeldung erforderlich · Ton und Persönlichkeit anpassen",
+    "uploadCvButton": "Lebenslauf hochladen*",
+    "uploadCvLabel": "Lebenslauf hochladen * (alle Sprachen werden unterstützt)",
+    "generateApplicationButton": "→ Bewerbung erstellen",
+    "firstNameLabel": "Vorname*",
+    "lastNameLabel": "Nachname*",
+    "emailLabel": "E-Mail*",
+    "jobDescriptionLabel": "Stellenbeschreibung*",
+    "toneLabel": "Ton*",
+    "toneTooltip": "Der Schreibstil und die Haltung, die Sie vermitteln möchten. Es setzt die Stimmung – ob Sie einen professionellen, freundlichen, selbstbewussten, bescheidenen oder missionsgetriebenen Ton wünschen – und passt sich der Unternehmenskultur an.",
+    "personaLabel": "Persönlichkeit*",
+    "personaTooltip": "Ihre berufliche Identität und Denkweise für diese Stelle. Es definiert, wie Sie sich präsentieren – wie ein produktorientierter Ingenieur, Teamleiter oder Startup-Gründer. Es prägt die Stimme und die Werte in Ihrem Lebenslauf und Anschreiben.",
+    "languageLabel": "Sprache für neuen Lebenslauf*",
+    "firstNamePlaceholder": "Vorname eingeben",
+    "lastNamePlaceholder": "Nachname eingeben",
+    "emailPlaceholder": "E-Mail eingeben",
+    "jobDescriptionPlaceholder": "Stellenbeschreibung einfügen",
+    "tonePlaceholder": "Z. B. professionell, mutig, kreativ",
+    "personaPlaceholder": "Z. B. empathischer Designer, datengesteuerter Ingenieur",
+    "languagePlaceholder": "Z. B. Deutsch, Englisch",
+    "cvFileNamePlaceholder": "Keine Datei ausgewählt",
+    "uploadingText": "Hochladen...",
+    "toastSuccessCvUploaded": "Lebenslauf erfolgreich hochgeladen!",
+    "toastSuccessApplicationGenerated": "Ihre Bewerbung wird im Hintergrund erstellt. Bitte überprüfen Sie in Kürze Ihre E-Mails für weitere Anweisungen.",
+    "errorNoCvUploaded": "Bitte laden Sie Ihren Lebenslauf hoch!"
+  }
+}

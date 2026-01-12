@@ -1,0 +1,159 @@
+{
+  "zapply": "Zapply",
+  "sign-up": "Sign Up",
+  "description": "Personalized CVs and Cover Letters tailored to your tone, persona, and job ad using AI.",
+  "tailored-cvs-and-cover-letters": "Tailored CVs & Cover Letters. Every Job. Every Time. Let AI instantly refine your resume and cover letter to match your tone, persona, and every job you apply for—no templates, no guesswork. Get fully personalized, professional documents that help you stand out in every application.",
+  "why-this-matters": {
+    "title": "Why This Matters",
+    "description": "Tired of generic applications getting ignored? Struggling to match your voice to each job post?",
+    "generic-isnt-getting-you-interviews": {
+      "title": "Generic Isn’t Getting You Interviews",
+      "description": "Let’s face it — hiring managers can spot a cookie-cutter CV from a mile away. If your application doesn’t speak directly to the job, it’s probably not getting noticed."
+    },
+    "your-voice-lost-in-translation": {
+      "title": "Your Voice, Lost in Translation",
+      "description": "You’re professional, driven, maybe even a little quirky — but does your application show that? If your tone doesn’t match the job or reflect your unique personality, you’re missing out on real opportunities."
+    },
+    "we-fix-that-automatically": {
+      "title": "We Fix That — Automatically",
+      "description": "Our AI transforms your base CV and cover letter into job-winning applications tailored to each job ad. It adapts your voice — whether professional, confident, humble, or creative — and matches it perfectly to what the role and company are looking for. No templates. No guesswork. Just high-impact applications that actually sound like you — and get results."
+    },
+    "ready-to-stand-out": "Ready to stand out? Let’s make every application count.",
+    "generateLinkText": "Generate My Custom Application"
+  },
+  "how-it-works": {
+    "title": "How It Works",
+    "description": "Get a tailored CV and cover letter in three simple steps.",
+    "step-1": {
+      "title": "Paste your CV and job ad",
+      "description": "Paste your CV in any language – we’ll tailor it to a new language based on job description to match your target role."
+    },
+    "step-2": {
+      "title": "Choose your persona and tone",
+      "description": "Define your professional persona (e.g., ‘Empathetic Designer’, ‘Data-Driven Engineer’) and preferred tone (e.g., Bold, Formal, Witty) to personalize your application."
+    },
+    "step-3": {
+      "title": "Receive a customized CV + cover letter instantly",
+      "description": "Each application is uniquely crafted — reflecting your voice and tailored precisely to the role you’re pursuing."
+    },
+    "callToAction": "Start Customizing Now"
+  },
+  "what-makes-us-different": {
+    "title": "What Makes Us Different",
+    "description": "Our AI creates applications that stand out and get noticed.",
+    "no-templates": {
+      "title": "No Templates",
+      "description": "Real customization for unique applications."
+    },
+    "tailored-for-each-job-ad": {
+      "title": "Tailored for Each Job Ad",
+      "description": "Personalized based on the job description."
+    },
+    "choose-tone-and-persona": {
+      "title": "Choose Tone & Persona",
+      "description": "Customize to sound uniquely like you."
+    },
+    "ats-optimized": {
+      "title": "ATS-Optimized",
+      "description": "Human-readable and ATS-friendly outputs."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Beta Testers Say",
+    "description": "Real feedback from job seekers using our platform.",
+    "testimonial-1": {
+      "title": "Landed My Dream Job",
+      "quote": "I got an interview within a week of using this tool. My CV finally stood out!",
+      "author": "Alex",
+      "role": "Software Engineer",
+      "altText": "Alex, software engineer"
+    },
+    "testimonial-2": {
+      "title": "Saves So Much Time",
+      "quote": "Customizing my CV for each job used to take hours. Now it’s done in minutes.",
+      "author": "Sarah",
+      "role": "Product Designer",
+      "altText": "Sarah, product designer"
+    },
+    "testimonial-3": {
+      "title": "Perfect for Job Seekers",
+      "quote": "The tone and persona options made my application feel so authentic.",
+      "author": "Mike",
+      "role": "Project Manager",
+      "altText": "Mike, project manager"
+    }
+  },
+  "call-to-action": {
+    "title": "Ready to stand out in every application?",
+    "description": "Join hundreds landing interviews with AI-tailored applications.",
+    "buttonText": "Join the Beta",
+    "no-spam": "Your data is safe with us. No spam, ever.",
+    "errorInvalidEmail": "Please enter a valid email address."
+  },
+  "faq": {
+    "title": "FAQ",
+    "description": "Got questions? We’ve got answers.",
+    "is-it-free": "Is it free?",
+    "is-it-free-asw": "Yes — early beta users get free access.",
+    "do-i-need-an-account": "Do I need an account?",
+    "do-i-need-an-account-asw": "Not yet. Just paste and go.",
+    "is-my-data-safe": "Is my data safe?",
+    "is-my-data-safe-asw": "100%. We don’t store anything.",
+    "how-does-the-ai-customize-my-cv": "How does the AI customize my CV?",
+    "how-does-the-ai-customize-my-cv-asw": "Our AI analyzes your CV, the job description, and your selected tone and persona to rewrite your application in a way that aligns with the role.",
+    "contact-text": "Still Have Questions? Contact Us"
+  },
+  "footer": {
+    "product": {
+      "title": "Product",
+      "links": {
+        "product": "Product",
+        "about": "About",
+        "github": "GitHub"
+      }
+    },
+    "legal": {
+      "title": "Legal",
+      "links": {
+        "privacy-policy": "Privacy Policy",
+        "terms": "Terms"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "huenguyenhoang1105@gmail.com"
+    },
+    "tagline": "Built by Hue Nguyen Hoang",
+    "copyright": "© 2025 . All Rights Reserved."
+  },
+  "hero": {
+    "title": "Tailored CVs & Cover Letters.<br />Every Job. Every Time.",
+    "description": "Let AI instantly refine your resume and cover letter to match your tone, persona, and every job you apply for—no templates, no guesswork. Get fully personalized, professional documents that help you stand out in every application.",
+    "generateButton": "→ Generate My Application",
+    "noSignupLink": "No signup needed · Customize tone & persona",
+    "uploadCvButton": "CV Upload*",
+    "uploadCvLabel": "CV Upload * (Any Language Supported)",
+    "generateApplicationButton": "Generate Application",
+    "firstNameLabel": "First Name*",
+    "lastNameLabel": "Last Name*",
+    "emailLabel": "Email*",
+    "jobDescriptionLabel": "Job Description*",
+    "toneLabel": "Tone*",
+    "toneTooltip": "The writing style and attitude you want to convey. It sets the vibe — whether you want a professional, friendly, confident, humble, or mission-driven tone — and aligns with the company culture.",
+    "personaLabel": "Persona*",
+    "personaTooltip": "Your professional identity and mindset for this role. It defines how you present yourself — like a product-focused engineer, team leader, or startup builder. It shapes the voice and values in your CV and cover letter.",
+    "languageLabel": "Language for New CV*",
+    "firstNamePlaceholder": "Enter first name",
+    "lastNamePlaceholder": "Enter last name",
+    "emailPlaceholder": "Enter email",
+    "jobDescriptionPlaceholder": "Paste job description",
+    "tonePlaceholder": "E.g., Professional, Bold, Creative",
+    "personaPlaceholder": "E.g., Empathetic Designer, Data-Driven Engineer",
+    "languagePlaceholder": "E.g., English, Spanish",
+    "cvFileNamePlaceholder": "No file selected",
+    "uploadingText": "Uploading...",
+    "toastSuccessCvUploaded": "CV uploaded successfully!",
+    "toastSuccessApplicationGenerated": "Your application is being generated in the background. Please check your email shortly for further instructions.",
+    "errorNoCvUploaded":"Please upload your CV!"
+  }
+}

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  svg {
+    display: unset;
+  }
+
+  :focus-visible {
+    outline: none;
+  }
+}
+@font-face {
+  font-family: "Open Sans Hebrew";
+  src: url("/fonts/OpenSansHebrew-Light.woff2") format("woff2");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
