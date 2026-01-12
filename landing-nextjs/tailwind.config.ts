@@ -14,6 +14,9 @@ export default {
       colors: {
         primary: colors.blue,
       },
+       animation: {
+        "spin-slow": "spin 6s linear infinite",
+      },
       fontFamily: {
         opensanshebrew: ["Open Sans Hebrew", "sans-serif"], // Define the custom font
       },

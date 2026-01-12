@@ -7,7 +7,7 @@ const FooterSection = () => {
   return (
     <footer className="bg-gray-50 dark:bg-gray-800 border-t border-gray-100 dark:border-gray-700">
       <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-16 lg:py-24">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
+   <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               {t("footer.product.title")}
