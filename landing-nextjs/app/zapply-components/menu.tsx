@@ -70,26 +70,7 @@ export function VendexHeaderWithUserDropdown() {
             )}
           </div>
 
-          {/* Nếu user đã login */}
-          {user ? (
-            <div className="flex items-center gap-2">
-              {/* <span className="">{user.email}</span> */}
-              <button
-             
-                className="rounded-xl bg-red-600 px-3 py-1 text-sm font-medium text-white hover:bg-red-700"
-              >
-                Sign out
-              </button>
-            </div>
-          ) : (
-            // Nếu chưa login
-            <a
-              href="/en/auth/sign-in"
-              className="mr-2 inline-flex items-center rounded-xl bg-primary-700 px-4 py-2 text-sm font-medium text-white shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary-800 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 lg:mr-0 lg:px-5 lg:py-2.5"
-            >
-              Sign In
-            </a>
-          )}
+   
         </div>
       </Navbar>
     </header>
