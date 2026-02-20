@@ -121,7 +121,7 @@ export default function QuanLyXe() {
           {/* HEADER */}
           <div className="flex flex-wrap gap-4 justify-between items-center mb-6">
             <h1 className="text-2xl font-bold text-gray-800">
-              Quản lý lịch xe công tác
+              Quản lý xe công tác
             </h1>
 
             <div className="flex gap-3">
@@ -147,12 +147,17 @@ export default function QuanLyXe() {
               </select>
             </div>
           </div>
-          {/* LOADING */}
-          {loading && (
-            <div className="text-center py-10 text-gray-500">
-              Đang tải dữ liệu...
-            </div>
-          )}
+        {loading && (
+  <div className="flex flex-col items-center justify-center py-20">
+    <div className="relative">
+      <div className="w-12 h-12 border-4 border-blue-200 rounded-full"></div>
+      <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin absolute top-0 left-0"></div>
+    </div>
+    <p className="mt-4 text-gray-500 text-sm font-medium">
+      Đang tải dữ liệu...
+    </p>
+  </div>
+)}
 
           {/* EMPTY */}
           {!loading && filtered.length === 0 && (
@@ -164,9 +169,9 @@ export default function QuanLyXe() {
 
           {/* TABLE */}
           {!loading && filtered.length > 0 && (
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto rounded-md">
               <table className="w-full text-sm text-left">
-                <thead className="bg-gray-100 text-gray-600">
+                <thead className="bg-blue-600 text-white">
                   <tr>
                     <th className="px-4 py-3">Mã CT</th>
                     <th className="px-4 py-3">Thời gian</th>
