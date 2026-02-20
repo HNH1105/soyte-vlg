@@ -71,6 +71,7 @@ export default function QuanLyXe() {
     fetch(SHEET_JSON_URL)
       .then((res) => res.json())
       .then((rows) => {
+        console.log("Raw rows from sheet:", rows);
         const mapped = rows.map((r: any) => ({
           maCT: r["Mã CT"],
           batDau: r["Thời gian bắt đầu"],
@@ -136,7 +137,7 @@ export default function QuanLyXe() {
               <select
                 value={selectedDriver}
                 onChange={(e) => setSelectedDriver(e.target.value)}
-                className="border rounded-lg px-3 py-2"
+                className="border rounded-lg px-2 py-2"
               >
                 <option value="ALL">Tất cả tài xế</option>
                 {drivers.map((d, i) => (
@@ -147,17 +148,17 @@ export default function QuanLyXe() {
               </select>
             </div>
           </div>
-        {loading && (
-  <div className="flex flex-col items-center justify-center py-20">
-    <div className="relative">
-      <div className="w-12 h-12 border-4 border-blue-200 rounded-full"></div>
-      <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin absolute top-0 left-0"></div>
-    </div>
-    <p className="mt-4 text-gray-500 text-sm font-medium">
-      Đang tải dữ liệu...
-    </p>
-  </div>
-)}
+          {loading && (
+            <div className="flex flex-col items-center justify-center py-20">
+              <div className="relative">
+                <div className="w-12 h-12 border-4 border-blue-200 rounded-full"></div>
+                <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin absolute top-0 left-0"></div>
+              </div>
+              <p className="mt-4 text-gray-500 text-sm font-medium">
+                Đang tải dữ liệu...
+              </p>
+            </div>
+          )}
 
           {/* EMPTY */}
           {!loading && filtered.length === 0 && (
