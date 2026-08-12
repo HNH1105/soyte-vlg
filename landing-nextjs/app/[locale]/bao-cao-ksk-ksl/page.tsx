@@ -1,43 +1,31 @@
-
 "use client";
 
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 export default function Home() {
+  const router = useRouter();
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      window.location.href =
+        "https://script.google.com/macros/s/AKfycbwT3gwAVcdXuJOJjYBxPu91ghmiFMWkVr4BBwkslW2ztPoouXuYycgdoBPM9_UdEAAI/exec";
+    }, 2000); // 2 giây
+    return () => clearTimeout(timeout);
+  }, [router]);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-blue-50 px-4">
-      <div className="flex flex-col items-center text-center">
-        {/* Icon */}
-        <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10 text-blue-600"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.8}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 9v2m0 4h.01M10.29 3.86l-8.18 14a2 2 0 001.73 3h16.32a2 2 0 001.73-3l-8.18-14a2 2 0 00-3.42 0z"
-            />
-          </svg>
+    <div className="flex items-center justify-center min-h-screen bg-blue-50">
+      <div className="flex flex-col items-center gap-4">
+        <div className="relative w-16 h-16">
+          {/* Vòng nền */}
+          <div className="absolute inset-0 border-4 border-gray-800 rounded-full"></div>
+          {/* Vòng quay */}
+          <div className="absolute inset-0 border-4 border-t-blue-500 rounded-full animate-spin"></div>
         </div>
-
-        {/* Nội dung */}
-        <h1 className="text-2xl font-semibold text-gray-800">
-          Chức năng đang được thực hiện
-        </h1>
-
-        <p className="mt-3 max-w-md text-sm leading-6 text-gray-500">
-          Chức năng này hiện đang trong quá trình xây dựng và hoàn thiện.
-          <br />
-          Vui lòng quay lại sau.
-           <br />
-          SỞ Y TẾ VĨNH LONG
-               <br />
-        </p>
+        <div className="text-sm uppercase tracking-wider">
+          Redirecting...
+        </div>
       </div>
     </div>
   );
 }
-
