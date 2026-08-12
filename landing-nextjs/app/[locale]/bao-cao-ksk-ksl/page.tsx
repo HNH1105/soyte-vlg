@@ -8,7 +8,7 @@ export default function Home() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       window.location.href =
-        "https://script.google.com/macros/s/AKfycbwT3gwAVcdXuJOJjYBxPu91ghmiFMWkVr4BBwkslW2ztPoouXuYycgdoBPM9_UdEAAI/exec";
+        "https://script.google.com/macros/s/AKfycbzMg6VRDxIDmtB341xGC38yqTjz0NfjbQyuLG5ua6P_6Pnz80DPYzYrena07HWFdoGN/exec";
     }, 2000); // 2 giây
     return () => clearTimeout(timeout);
   }, [router]);
